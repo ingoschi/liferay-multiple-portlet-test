@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+	<h:head>
+	<f:facet name="last">
+			<h:outputScript>
+        // Work around https://github.com/primefaces/primefaces/issues/3746
+        PrimeFacesExt.VERSION = null;
+    </h:outputScript>
+		</f:facet>
+	</h:head>
+	<h:body>
+	    
+  <h:panelGrid columns="1"
+        style="width: 100%">
+        <ui:insert name="daten">DEFAULT CONTENT</ui:insert>     
+    </h:panelGrid>
+    
+	</h:body>
+
+	
+
+</f:view>
+
