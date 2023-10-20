@@ -13,7 +13,7 @@ with Portlet 2.0 and JSF 2.2 and CDI Integation.
 
 It still uses Primefaces 6.1.
 
-#Bug
+# Bug
 
 This project has three portlets Test 1, Test 2 and Test 3
 
@@ -24,7 +24,7 @@ But if Test 2 is selected, Test 3 is displayed
 
 ![wrongportlet](wrongportlet.png)
 
-#Debug
+# Debug
 
 ![debug](debug.png)
 
