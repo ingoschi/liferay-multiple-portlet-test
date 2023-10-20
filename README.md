@@ -22,7 +22,7 @@ It still uses Primefaces 6.1.
 This project has three portlets Test 1, Test 2 and Test 3
 
 That are shown in the menu.
-![widgetmenu](widgetmenu.png)
+![widgetmenu](widget.menu.png)
 
 But if Test 2 is selected, Test 3 is displayed
 
