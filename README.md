@@ -7,11 +7,7 @@ This builds a test.war for Liferay 7.4.3.81 with mvn -P cdi clean install
 
 The test.war is based on
 
-<parent>
-		<groupId>com.liferay.faces.archetype</groupId>
-		<artifactId>com.liferay.faces.archetype.parent</artifactId>
-		<version>6.1.1</version>
-</parent> 
+com.liferay.faces.archetype.parent 6.1.1
 
 with Portlet 2.0 and JSF 2.2 and CDI Integation.
 
