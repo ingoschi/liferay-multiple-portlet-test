@@ -1,0 +1,1 @@
+# liferay-multiple-portlet-test
